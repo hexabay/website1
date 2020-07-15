@@ -1,0 +1,138 @@
+html, body, h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+body {
+  background-color: #f5efe3;
+}
+
+/****************TOP HEADING***********************/
+._top {
+  height: 300px;
+  background-color: #215b63;
+}
+
+.together {
+  width: auto;
+  position: absolute;
+  left: 400px;
+  top: 30px;
+}
+
+.main-heading {
+  display: inline-block;
+  line-height: 220px;
+  font-size: 4rem;
+  color: white;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.author-img {
+  float: right;
+  margin-left: 30px;
+
+}
+
+/***************NAV BAR************************/
+.testing{
+  display: block;
+  background-color: #74b49b;
+  padding-left: 8%;
+}
+.navbar {
+  overflow: hidden;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+/* Style the navigation bar links */
+.navbar a {
+  display: inline-block;
+  background-color: #74b49b;
+  margin: 0;
+  color: white;
+  text-align: center;
+  padding: 14px 8%;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: 'Cuprum', sans-serif;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #5c8d89;
+  color: white;
+}
+
+/****************MAIN-BODY CONTENTS***********************/
+.main {
+  margin: 0 20%;
+  margin-bottom: 0;
+  background-color: #e6e7e5;
+  display: block;
+}
+/*************HR****************/
+hr {
+  border-style: none none dotted none;
+  border-width: 10px;
+  border-color: lightblue;
+  margin-bottom: 0;
+  width: 5%;
+  padding-top: 30px;
+  line-height: 50px;
+
+}
+
+/*************CONTENTS****************/
+
+.sub-head {
+  font-size: 2.8rem;
+  padding-top: 40px;
+  text-align: center;
+  color: #add2c9;
+  font-family: 'Satisfy', cursive;
+}
+.first-head{
+  padding-top: 80px;
+}
+ul{
+  padding:0;
+  margin-bottom:  0;
+}
+.listing {
+  font-size: 1.3rem;
+  list-style: none;
+  line-height: 2;
+  text-align: center;
+  color: #9ba6a5;
+  font-family: 'Cuprum', sans-serif;
+
+}
+
+/*****************FOOTER**********************/
+
+.footer{
+
+  margin: 0;
+  background-color: #149f63;
+  text-align: center;
+  padding: 30px 0;
+  font-family: 'Cuprum', sans-serif;
+
+}
+
+.social-m{
+  margin: 0 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+
+}

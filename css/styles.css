@@ -1,0 +1,191 @@
+
+
+body {background-color: #f0ece2; margin: 0;}
+/************ HR - HORIZONTAL RULE**************/
+
+hr {
+  border-style: none none dotted none;
+  border-width: 10px;
+  border-color: lightblue;
+  height: 30px;
+  width: 5%;
+}
+
+
+
+
+
+/************INDEX MAIN HEADING ------->CONTAINER 1**************/
+.container1{
+  background-color: #240041;
+  height: 36.125rem;
+}
+
+.book-img1{
+  width: 20%;
+  float: left;
+}
+
+.holder{
+  position: absolute;
+  right: 10%;
+  top: 30%;
+}
+
+.first{
+  color: white;
+  font-size: 5rem;
+  font-family: 'Cabin Sketch', cursive;
+  margin-bottom: 0;
+  margin-top: 0;
+  overflow: visible;
+  text-align: center;
+}
+
+.second{
+  display: inline-block;
+  color: #8e6161;
+  font-size: 2rem;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 10px;
+  position: absolute;
+  right: 8%;
+}
+
+
+
+
+/************INDEX PAGE--COMMON--CONTENTS**************/
+.sub-headings{
+  font-size: 3.4rem;
+  color: #596c68;
+  text-align: center;
+  line-height: 2.5rem;
+  padding-bottom: 10px;
+  font-family: 'Lobster Two', cursive;
+}
+
+
+/************INDEX PAGE CONTENTS------->CONTAINER 2**************/
+
+.container2{
+  padding: 10px 8% 10px 8%;
+}
+
+.par{
+  margin: 30px 20%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #8aae92;
+  font-family: 'Cuprum', sans-serif;
+}
+
+/***********ANCHOR - AUTHORS***************/
+
+
+a{
+  color: #daebee;
+  text-decoration: none;
+}
+a:hover{ color:#476268; }
+
+/*******INDEX PAGE--AUTHORS-------->CONTAINER3 **********/
+.single-block:hover{
+  background-color: #40a798;
+}
+.container3{
+  display: block;
+  margin: 0 20% 0 20%;
+  height: 350px;
+}
+
+.single-block{
+  height: 300px;
+  width: 250px;
+  display: inline-block;
+  position: absolute;
+  background-color: #8aae92;
+
+
+}
+
+.ima{
+  max-width: 80%;
+  display: block;
+  margin: 5% auto 0;
+}
+
+.paragraph{
+  font-size: 1.5rem;
+  margin: 20px 0;
+  text-align: center;
+}
+.name{
+  margin: 0;
+  font-family: 'Cuprum', sans-serif;
+}
+.stars{
+  font-size: 1.1rem;
+}
+
+/***********ABOUT ME***************/
+
+.container4{
+ height: 900px;
+  background-color:#020205;
+
+}
+
+.abtme-heading{
+  padding-top: 50px;
+  color: #e23e57;
+  font-size: 4rem;
+  font-family: 'Gloria Hallelujah', cursive;
+  letter-spacing: normal;
+}
+.abtme-img{
+  display: block;
+  position: absolute;
+  left: 140px;
+
+}
+.abc{
+  padding-top: 30px;
+  position: absolute;
+  width:30%;
+  left: 470px;
+
+}
+#abtme{
+
+  color: #52d681;
+  text-shadow: 1px 1px #522546;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 30px auto;
+
+}
+
+/**************************/
+.goesbackup{
+  position: absolute;
+  right:300px;
+
+  width: 50px;
+}
+
+
+/**************************/
+.footer{
+  margin: 0;
+  background-color: #00ad7c;
+  text-align: center;
+  padding: 30px 0;
+  font-family: 'Cuprum', sans-serif;
+}
+.social-m{
+  margin: 0 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
